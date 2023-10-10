@@ -28,7 +28,7 @@ Some of these, may be just pipe dreams, but nevertheless i'll add them. We will 
            |              |
            |              |_ preprocessor  <------------------ sub folder 1
            |                         |
-           |_ compiler <-------------|------------------ ub folder 2
+           |_ compiler <-------------|------------------ sub folder 2
            |                         |
            |                         |_ main.c
            |                    
@@ -37,4 +37,4 @@ Some of these, may be just pipe dreams, but nevertheless i'll add them. We will 
 
 ![compiler_options](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/aedea48b-15cb-4834-8d80-f31305f03432)
 
-Any folders or files in side the sub folder would not be subjected to the same couse of action as the sub folder itself. This would you to work on two related projects and test them as you go and it would allow you to more easily share shared libs between projects/programs.
+Any folders or files in side the sub folder would not be subjected to the same course of action as the sub folder itself. This would allow you to work on two related projects and test them as you go and it would allow you to share more easily between shared libs between projects/programs.
