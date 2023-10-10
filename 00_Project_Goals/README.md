@@ -1,4 +1,4 @@
-#The goals of this project:
+The goals of this project:
 
 Some of these, may be just pipe dreams, but nevertheless ill add them. We will defiantly work on the main things that make an ide.
 
@@ -12,7 +12,7 @@ Here Illeshian_Ide_ is our main project folder now ill_compiler and preprocessor
 
 ![compiler_options](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/aedea48b-15cb-4834-8d80-f31305f03432)
 
-The program button should be a drop down list of the availabe compilers or assemblers connected to it. With the compiler selected and the path set it wold compile th right files on the right path.
+The program button should be a drop down list of the availabe compilers or assemblers connected to it. With the compiler selected and the path set it wold compile the right files on the right path.
 
 4) Syntax formatting
 5) Theme setting so the user can set thier own.
