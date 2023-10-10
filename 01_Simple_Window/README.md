@@ -1,4 +1,5 @@
-We have set up our project. So now when we press the compile or run button you should have a simple window displaying:
+So we have creates a project and shoud be setup. If you press the compile or run button now you should have a simple window like this displaying:
+
 ![simple_window](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/d52c1456-4a2e-4c0d-af76-3c4066110823)
 
 Its a really basic window that we start with, but thats ok, we will turn it into something. Before getting into the more difficult things lets first set up this main window to look a little better and look more like an app.
