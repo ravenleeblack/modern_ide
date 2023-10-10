@@ -9,16 +9,21 @@
 4) Project...
    
 5) Visual C#
-![choose](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/f694e88d-54e5-4091-bf0e-3b3377d251a1)
+![windowed_project](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/0f432ebc-6e58-4355-bfe3-b0e47c0b39df)
+
 
 6) WPF App (.NET Framework)
-![choose](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/89d7fe0d-5f4d-40dd-9bd2-fda590aced31)
+![windowed_project](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/9c3514bf-e114-48a9-9b83-111b80842f9c)
+
 
 7) Name the project
-![choose](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/39362c0a-1dcd-45f8-8e26-4c066e9aad40)
+![windowed_project](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/9e3c7ee3-3081-4637-9f50-93997ed2998e)
+
 
 8) Choose Directory
-![choose](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/045ba088-ce0c-4312-9cbd-a561098be0a1)
+![windowed_project](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/38ba900e-049b-41c7-bd4f-bbcde589b9b1)
+
 
 9) Click Ok
-![choose](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/03fc30e7-b766-4547-96ff-2d97be923ad5)
+![windowed_project](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/dcc5516d-835e-4890-a3be-26678e136fdc)
+
