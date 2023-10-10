@@ -1,7 +1,7 @@
 
-The goals of this project:
+The goal of this ide project:
 
-Some of these, may be just pipe dreams, but nevertheless ill add them. We will defiantly work on the main things that make an ide.
+Some of these, may be just pipe dreams, but nevertheless i'll add them. We will defiantly work on the main things that make an ide.
 
 1) Make a usuable ide that can others and myself can learn from to create a real ide.
 2) The main goal is to be able to open up files, edit them in a tabbed window, and save them so they can be reopened another time like a normal ide text editor.
