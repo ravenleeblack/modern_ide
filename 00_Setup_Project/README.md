@@ -3,7 +3,7 @@
 
 2) File
    
-![file](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/fa7258aa-a4c9-4f63-8cad-c57d211dbdef)
+   ![file](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/fa7258aa-a4c9-4f63-8cad-c57d211dbdef)
 
 3) New
 4) Project...
