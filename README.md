@@ -1,6 +1,6 @@
 # Illeshian-Ide
                             
-As we all know, making the ui for a real ide, simply doesnt exist in the coding community. Making anything ui isnt easy per say. I am not the best in C# or xaml so I am hoping others will help contribute to this project. I have been building my own language and a compiler for it in pure c, and I am almost finished with it, so I would love to have the ui or ide part of it ready for when I do. As well as provide a spot for others to find a beginning in thier own ide journey.
+As we all know, making the ui for a real ide, simply doesnt exist in the coding community as far learning how to. Making anything ui isnt easy per say. I am not the best in C# or xaml so I am hoping others will help contribute to this project. I have been building my own language and a compiler for it in pure c, and I am almost finished with it, so I would love to have the ui or ide part of it ready for when I do. As well as provide a spot for others to find a beginning in thier own ide journey.
 
 ![Illeshian_ide](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/59f95599-8e48-4abe-a98e-481588dc6ae5)
 
