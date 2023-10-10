@@ -7,11 +7,13 @@ The first thing were going to do is maximize our screen. In our mainwindow.xaml 
 
     Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
 
-Next we will remove the window's header so that we re-gain some space. In order to do this we will need to add WindowStyle="none" to the the title line.
+Next we will remove the window's header so that we re-gain some space so we will need to add WindowStyle="none" to the title line.
 
     Title="MainWindow" Height="450" Width="800" WindowState="Maximized" WindowStyle="none">
 
-Now for the color of the background, I am not sure if adding the background color to the title line, would be the proper way of doing things. The reason being is that the grid line in our code seems to overlay the title. So I suppose its assumed that we will use the grid more often, so adding the background color to the grid, would be more efficient.
+We will be making our own custom min, max, and exit buttons so dont worry. If you compile now it wont be easy to exit so you will need to click on the vs icon in your taskbar and shut down the window by stopping the compiler. This is far more easy if you have 2 monitors lmao.
+
+Now for the color of the background, I am not sure if adding the background color to the title line, would be the proper way of doing things. The reason being is that the grid line in our code seems to indicate that the grid overlays the title. So I suppose its assumed that we will use the grid more often, so adding the background color to the grid, would be more efficient.
 
 If you use your cursor and click on the grid line it will select the grid. We should now have a properties tab window open.
 
@@ -21,7 +23,8 @@ We want to choose solid color which is the second option and pick ourselves a rg
 
 ![prop_2](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/ccb62dfa-9963-44bb-a358-c9e80446a021)
 
-I chose rbg 60, 60, 60 for the background this time to kinda lighten everything up.
+I chose rbg 60, 60, 60 for the background this time to kinda lighten everything up. For rgb colors a good site to bookmark for colors would be:
+https://www.rapidtables.com/web/color/RGB_Color.html
 
 
 
