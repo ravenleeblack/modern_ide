@@ -24,20 +24,18 @@ Under brush we want to choose the solid color tab, which is the second option, a
 
 ![prop_2](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/ccb62dfa-9963-44bb-a358-c9e80446a021)
 
-To verify that we did indeed change the color to the grid and not the title line you should see:
->     <Grid Background="#FF282828"/>
 
-Now we should have a window that looks like this:
+Now we should have a main window that looks like this:
 
 ![screen_1](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/70a62453-6fdc-4f64-af2a-8912a36ac6f3)
 
-and some code that looks:
+If you want to verify the xaml code:
 
 ![grid](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/385874f5-6342-4c52-a68d-627bb350074a)
 
 Just a maximized window with no header and some background color.
 
-For rgb colors a good site to bookmark for colors would be:
+For rgb colors a good site to bookmark would be:
 https://www.rapidtables.com/web/color/RGB_Color.html
 
 
