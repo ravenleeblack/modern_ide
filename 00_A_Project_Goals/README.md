@@ -15,14 +15,27 @@ Some of these, may be just pipe dreams, but nevertheless i'll add them. We will 
 10) Hex reader and converter(displays in it's own window) with color formatting
 11) Binary reader and converter (displays in it's own window) with color formatting
 
-12) Create an ide that will allow multiple projects to be in progress in the main directory. If we create a main project folder, we could in theory use a button to direct the ide to a particular sub folder or sub directory to be compiled at runtime, or the path as we say, then when the run button is pressed it will only compile the sub-folder so there is no conflictions with the other folders in main directory. An example of this would be:
+12) Create an ide that will allow multiple projects to be in progress in the main project directory. (Solution explorer, File Archive, Folder Directory)
 
-![example](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/246263ee-71a0-4deb-913d-cbc50172b700)
+12_A) We always create a main folder when starting a new project. So when we create a main folder that folder is usually what holds all our projects files but if we allowed the sub-folders of that main folder to be set on the command line and put into the sub folders path  into the project path button as a list of paths then we could have multiple projects in one main project. 
 
-Here Illeshian_Ide_ is our main project folder now ill_compiler and preprocessor folders are sub folders. In this new ide we would choose what languange we want to use by using the program button drop down then set the path we want by using the project path button before pressing the run button. The project path button should have a list of the the available sub folders and of course be put on the command line so it can be used. Any child folders of the main would be considered a project so you would always have to create your files in any one of the sub folders. This would allow 2 projects to be going on during development that are related. It would also allow for any 2 projects to openly use a shared library more easily.
+12_B) When we want to run and debug one of the projects then we would pick our compiler/assembler from the program button because we are choosing the program we are wanting to use to compile or assemble and then we set the path of that project through the project path button so there are no compilation errors.
+
+              ide <------------------- main folder
+               |
+           ----------------
+           |              |
+           |              |
+           |              |_ preprocessor  <------------------ sub folder 1
+           |                         |
+           |_ compiler <-------------|------------------ ub folder 2
+           |                         |
+           |                         |_ main.c
+           |                    
+           |_ main.c                    
+
+[ide][preprocessor][compiler
 
 ![compiler_options](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/aedea48b-15cb-4834-8d80-f31305f03432)
 
-The program button should be a drop down list of the availabe compilers or assemblers connected to it. With the compiler selected and the path set it wold compile the right files on the right path.
-
-
+Any folders or files in side the sub folder would not be subjected to the same couse of action as the sub folder itself. This would you to work on two related projects and test them as you go and it would allow you to more easily share shared libs between projects/programs.
