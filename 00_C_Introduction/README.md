@@ -9,6 +9,6 @@ In our file solution we should have:
 
 ![file_solution](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/bca19738-27fd-4c96-b6a7-fd7839a23db5)
 
-In future lessons I will not be be adding the Properties or References files into each of the lessons. These are automatically added when the project is created. I will only be adding the newly updated files of app.config, app.xaml mainwindow.xaml or any new files that are created as we progress in order to keep the project as clean as possible.
+In future lessons I will not be be adding the Properties or References files into each of the lessons. These are automatically added when the project is created.
 
-So right now if you press play then you should already have a nice window that will display!! In the first tuterial we will maximize it and provide a color for the back ground.
+I will only be adding the files app.config, app.xaml, mainwindow.xaml and any new files that are created as we progress in order to keep the project as clean as possible. Be aware that even doe these files will be provided in all lessons, some of them may not have any changes while some do.
