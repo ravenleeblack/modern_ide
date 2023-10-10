@@ -5,7 +5,11 @@ As we all know, making the ui for a real ide, simply doesnt exist in the coding 
 ![Illeshian_ide](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/59f95599-8e48-4abe-a98e-481588dc6ae5)
 
 1) MENUS:
->     The window header and main menu are combined since the window header is usually a waste of space and we normally do not use all of the main menu. I combined them in a single custom made menu, with custom made drop downs and custom made buttons for min, max, and exit. I could not figure out how to remove all the white from the menu and dropdowns and I do not understand styles yet so custom was the best way to go. The button menus are suppose to close once they are outside of the buttons menu but it doesnt really work well at the moment because the mouse events are not registering well because of the dock panel.
+>     The window header and main menu are combined since the window header is usually a waste of space and we normally do not
+>     use all of the main menu. I combined them in a single custom made menu, with custom made drop downs and custom made buttons
+>     for min, max, and exit. I could not figure out how to remove all the white from the menu and dropdowns and I do not understand
+>     styles yet so custom was the best way to go. The button menus are suppose to close once they are outside of the buttons menu
+>     but it doesnt really work well at the moment because the mouse events are not registering well because of the dock panel.
 
 3) WINDOWS:
 >     If you ever wondered if you are suppose to use labels vs windows vs tabbed then the answer is: I read from the MS website that all modern ide's use tabbed windows. So all the windows are tabbed and inside a dock panel. The downside to this so far is that dock panel is preventing mouse events in the menu buttons above.
