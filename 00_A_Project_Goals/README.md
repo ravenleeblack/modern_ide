@@ -34,7 +34,6 @@ Some of these, may be just pipe dreams, but nevertheless i'll add them. We will 
            |                    
            |_ main.c                    
 
-[ide][preprocessor][compiler
 
 ![compiler_options](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/aedea48b-15cb-4834-8d80-f31305f03432)
 
