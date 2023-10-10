@@ -4,7 +4,17 @@ Some of these, may be just pipe dreams, but nevertheless ill add them. We will d
 
 1) Make a usuable ide that can others and myself can learn from to create a real ide.
 2) The main goal is to be able to open up files, edit them in a tabbed window, and save them so they can be reopened another time like a normal ide text editor.
-3) Create an ide that will allow multiple projects to be in progress in the main directory. If we create a main project folder, we could in theory use a button to direct the ide to a particular sub folder or sub directory to be compiled at runtime, or the path as we say, then when the run button is pressed it will only compile the sub-folder so there is no conflictions with the other folders in main directory. An example of this would be:
+3) A plugin framwork so that most of these things can work properly.
+4) Get the run button working with a couple of backends.  (compiler/assembler)
+5) Dockable windows
+6) Syntax formatting
+7) Theme setting so the user can set thier own.
+8) precise and wordy debugger that displays in output window. (In my compiler I get down on describing where the errors are coming from).
+9) Evetually a plug in that will allow to use the terminal window. Would like to create my own terminal commands and a new version of make eventually.
+10) hex reader (displays in it's own window) with color formatting
+11) binary reader (displays in it's own window) with color formatting
+
+12) Create an ide that will allow multiple projects to be in progress in the main directory. If we create a main project folder, we could in theory use a button to direct the ide to a particular sub folder or sub directory to be compiled at runtime, or the path as we say, then when the run button is pressed it will only compile the sub-folder so there is no conflictions with the other folders in main directory. An example of this would be:
 
 ![example](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/246263ee-71a0-4deb-913d-cbc50172b700)
 
@@ -13,14 +23,5 @@ Here Illeshian_Ide_ is our main project folder now ill_compiler and preprocessor
 ![compiler_options](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/aedea48b-15cb-4834-8d80-f31305f03432)
 
 The program button should be a drop down list of the availabe compilers or assemblers connected to it. With the compiler selected and the path set it wold compile the right files on the right path.
-
-4) Syntax formatting
-5) Theme setting so the user can set thier own.
-6) precise and wordy debugger that displays in output window. (In my compiler I get down on describing where the errors are coming from).
-7) plugin framework so that most of these things can be achieved.
-8) Evetually a plug in that will allow to use the terminal window. Would like to create my own terminal commands and a new version of make eventually.
-9) hex reader (displays in it's own window) with color formatting
-10) binary reader (displays in it's own window) with color formatting
-11)  A real dockable system
 
 
