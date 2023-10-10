@@ -8,7 +8,7 @@ So what I did was 1920 / 100 which give us 1900 pixels and leaves us 20 pixels. 
 
 ![grid_width](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/2bc01221-eaa9-4d81-a4a5-88f1e7977bf2)
 
-I am not really sure how many pixels the taskbar is so it is always trial and error when it comes to dealing the rows or height of the window. For the rows I have choose to do 5 rows with 4 rows at 20 pixels in height and used the asterik * to cover the remaining fifth row. Here it would give us the first row of 20 pixels for the main menu, the second row for a toolbar then 2 rows of 20 pixels as spacer so the window doesnt become too overcrowded and ugly.
+I am not really sure how many pixels the taskbar is so it is always trial and error when it comes to dealing the height of a window. For the rows I have chosen to do 5 rows, with 4 rows being set to 20 pixels in height and used the asterik * to cover the remaining fifth row. This gives 20 pixels for the main menu, 20 pixels for the toolbar, 40 pixels as spacer so the window doesnt become overcrowded and the remaining pixels would be for our statusbar at the bottom and tabbed window so the 5th row is adjustable.
 
 ![grid_height](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/50730772-8ebd-4efd-ba1a-be834e331cab)
 
