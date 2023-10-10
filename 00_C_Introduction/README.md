@@ -12,3 +12,5 @@ In our file solution we should have:
 In future lessons I will not be be adding the Properties or References files into each of the lessons. These are automatically added when the project is created.
 
 I will only be adding the files app.config, app.xaml, mainwindow.xaml and any new files that are created as we progress in order to keep the project as clean as possible. Be aware that even doe these files will be provided in all lessons, some of them may not have any changes while some do.
+
+As the lessons progress, I will use less images to explain things, that we have already covered.
