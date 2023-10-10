@@ -1,7 +1,7 @@
-We have set up our project. So now when we press the compile or run button we should have a window displaying that looks like this.
+We have set up our project. So now when we press the compile or run button you should have a simple window displaying:
 ![simple_window](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/003f135f-4c64-47b1-8715-96fb86282b15)
 
-Lets go ahead and set up the main window. 
+Its really a really basic window. Lets go ahead and set up this main window. 
 
 The first thing were going to do is maximize our screen. In our mainwindow.xaml file we are going to add WindowState="Maximized" to the the title line.
 
