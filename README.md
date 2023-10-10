@@ -17,6 +17,6 @@ As we all know, making the ui for a real ide, simply doesnt exist in the coding 
 6) TERMINAL WINDOW: In progress lmao
    
 9) I would like to see the program button in the tool bar become a drop down of what language you would like to use, so that when you press the run button, it will only compile the files related to that compiler or assembler that you have chosen. (For multiple stage compilation). I would also like to be able to create a main project or folder, then  have multiple projects within, lets say that we create a seperate preprocessor and we have a compiler, then
-we would have two children folders one for the preprocessor and one for the compiler. The issue with this, is that the ide would try to compile everything in the directory, so I created a project path button in the toolbar so that we could evetually guide the ide to compile or assemble the exact folder and files in a sub directory folder if possible rather the ntrying to compile the whle main directory.
+we would have two children folders one for the preprocessor and one for the compiler. The issue with this, is that the ide would try to compile everything in the directory, so I created a project path button in the toolbar so that we could evetually guide the ide to compile or assemble the exact folder and files in a sub directory folder if possible rather then trying to compile the whole main directory.
 
-I would defianlty be interested in a way to set themes so that the color of ui and text be changed.
+I would def be interested in a way to set themes so that the color of ui and text be changed. This still needs alot of work. I had new files working and opening up a tabbed window for new files and saving the files but I broke it recently messing with the chatai.
