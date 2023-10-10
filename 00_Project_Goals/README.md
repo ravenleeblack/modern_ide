@@ -9,10 +9,10 @@ Some of these, may be just pipe dreams, but nevertheless ill add them. We will d
 5) Dockable windows
 6) Syntax formatting
 7) Theme setting so the user can set thier own.
-8) precise and wordy debugger that displays in output window. (In my compiler I get down on describing where the errors are coming from).
+8) Precise and wordy debugger that displays in output window. (In my compiler I get down on describing where the errors are coming from).
 9) Evetually a plug in that will allow to use the terminal window. Would like to create my own terminal commands and a new version of make eventually.
-10) hex reader (displays in it's own window) with color formatting
-11) binary reader (displays in it's own window) with color formatting
+10) Hex reader and converter(displays in it's own window) with color formatting
+11) Binary reader and converter (displays in it's own window) with color formatting
 
 12) Create an ide that will allow multiple projects to be in progress in the main directory. If we create a main project folder, we could in theory use a button to direct the ide to a particular sub folder or sub directory to be compiled at runtime, or the path as we say, then when the run button is pressed it will only compile the sub-folder so there is no conflictions with the other folders in main directory. An example of this would be:
 
