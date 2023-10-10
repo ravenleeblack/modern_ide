@@ -25,12 +25,15 @@ Under brush we want to choose the solid color tab, which is the second option, a
 ![prop_2](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/ccb62dfa-9963-44bb-a358-c9e80446a021)
 
 To verify that we did indeed change the color to the grid and not the title line you should see:
-![grid](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/385874f5-6342-4c52-a68d-627bb350074a)
-
+>     <Grid Background="#FF282828"/>
+> 
 It was <Grid/> before and it now has added the background color to the grid.
 
-Now we dould have a window that looks like this:
+Now we should have a window that looks like this:
 ![screen_1](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/70a62453-6fdc-4f64-af2a-8912a36ac6f3)
+
+and some code that looks:
+![grid](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/385874f5-6342-4c52-a68d-627bb350074a)
 
 Just a maximized window with no header and some background color.
 
