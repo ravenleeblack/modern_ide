@@ -1,4 +1,4 @@
-So we have created a new project and shoud now be setup. If you press the compile or run button you should have a simple window like this displaying:
+So we have created a new project and should now be setup. If you press the compile or run button you should have a simple window like this displaying:
 
 ![simple_window](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/d52c1456-4a2e-4c0d-af76-3c4066110823)
 
