@@ -20,3 +20,5 @@ As we all know, making the ui for a real ide, simply doesnt exist in the coding 
 we would have two children folders one for the preprocessor and one for the compiler. The issue with this, is that the ide would try to compile everything in the directory, so I created a project path button in the toolbar so that we could evetually guide the ide to compile or assemble the exact folder and files in a sub directory folder if possible rather then trying to compile the whole main directory.
 
 I would def be interested in a way to set themes so that the color of ui and text be changed. This still needs alot of work. I had new files working and opening up a tabbed window for new files and saving the files but I broke it recently messing with the chatai.
+
+If you want to help I am around my computer alot so I can return convos fairly quick. If you dont want to submit here then I welcome emails and even would to see anyone make a video.
