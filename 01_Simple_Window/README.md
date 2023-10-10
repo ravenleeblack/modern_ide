@@ -24,7 +24,12 @@ Under brush we want to choose the solid color tab, which is the second option, a
 
 ![prop_2](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/ccb62dfa-9963-44bb-a358-c9e80446a021)
 
-I chose rbg 60, 60, 60 for the background this time to kinda lighten everything up. For rgb colors a good site to bookmark for colors would be:
+To verify that we did indeed change the color to the grid and not the title line you should see:
+    <Grid Background="#FF3C3C3C"/>
+
+It was <Grid/> before and it now has added the background color to the grid.
+
+For rgb colors a good site to bookmark for colors would be:
 https://www.rapidtables.com/web/color/RGB_Color.html
 
 
