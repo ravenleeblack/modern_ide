@@ -11,7 +11,7 @@ Some of these, may be just pipe dreams, but nevertheless i'll add them. We will 
 6) Syntax formatting
 7) Theme setting so the user can set thier own.
 8) Precise and wordy debugger that displays in output window. (In my compiler I get down on describing where the errors are coming from).
-9) Evetually a plug in that will allow to use the terminal window. Would like to create my own terminal commands and a new version of make eventually.
+9) Eventually a plug in that will allow the use of the terminal window. Would like to create my own terminal commands and a new version of make eventually.
 10) Hex reader and converter(displays in it's own window) with color formatting
 11) Binary reader and converter (displays in it's own window) with color formatting
 
