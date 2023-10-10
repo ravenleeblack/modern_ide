@@ -1,13 +1,9 @@
 # Illeshian-Ide
-                            
-As we all know, making the ui and the event code related to make that ui work, for a real ide simply doesnt exist in the coding community. I mean there is just not enough information on how to build a usable one. Making anything ui isnt easy per say and we really need to up our game on ui tuterials.
 
-I am not the best in C# or xaml so I am hoping others will help contribute to this project. I have been building my own language and a compiler for it in pure c and nasm, and I am almost finished with it, so I would love to have the ui or ide part of it ready for when I do.
+Designing the UI for an ide and then putting the event code behind it to create a real ide seems to be non existing. There is just not enough information on how to build a usable ide. UI design for anything really isnt easy per say and we really need to up our game on ui tuterials.
 
-I would also like this to be a place for others to start or refer to when trying to create and design thier own ide.
+I am not claiming to be good at xaml or c# at all but I will try my best to collectthe information needed so that maybe in the future this repos could provide soe useful information for anyone lese looking to build an ide. I am not the best in xaml or C# so I am hoping others will help contribute to this project. I am a pure c and nasm kind of guy and I have been building my own language and a compiler for the language for the last few years, and I am almost finished with it, so I would love to have the frontend or ide part of it ready for when I do finish the compiler or backend. This has steered me into learning wpl xaml for frontends so I hope someone finds this interesting enough to make this a thing. I really would like this to be a place for others to start or refer to, when trying to create and design, thier own ide.
 
 ![Illeshian_ide](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/59f95599-8e48-4abe-a98e-481588dc6ae5)
-
-
 
 If you want to help I am around my computer alot so I can return convos fairly quick. If you dont want to submit here then I welcome emails and even would to see anyone make a video.
