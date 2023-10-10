@@ -14,7 +14,7 @@ Next we will remove the window's header, so that we re-gain some space, so we ne
 
 We will be making our own custom min, max, and exit buttons later so dont worry. If you compile now it wont be easy to exit, so you will have to click on the vs icon, thats located  on your taskbar. Then shut down the vs compiler so the window will be stopped. This is alot easier to do if you have 2 monitors lmao.
 
-Now for the color of the background, I am not sure if adding the background color to the title line, would be the proper way of doing things. The reason being is that the grid line in our code seems to indicate that the grid itself overlays the title. So I suppose since we will be using the grid it would be better to add the color to the grid.
+Now for the color of the background, I am not sure if adding the background color to the title line, would be the proper way of doing things. The reason being is that the grid line in our code seems to indicate that the grid itself overlays the title. So I suppose since we will be using the grid it would be better to add the background color to the grid. Later other ui elements will overlay the grid and the grid will still provide the nice background color that we chose.
 
 If you use your cursor and click on the grid line it will select the grid. We should now have a properties tab window open under the solution explorer.
 
