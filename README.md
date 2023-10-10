@@ -9,7 +9,6 @@ I would also like this to be a place for others to start or refer to when trying
 ![Illeshian_ide](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/59f95599-8e48-4abe-a98e-481588dc6ae5)
 
 
-https://github.com/ravenleeblack/Illeshian-Ide/blob/main/00_Setup_Project
 
 1) MENUS:
 The window header and main menu are combined since the window header is usually a waste of space and we normally do not use all of the main menu. I combined them in a single custom made menu, with custom made drop downs and custom made buttons for min, max, and exit. I could not figure out how to remove all the white from the menu and dropdowns and I do not understand styles yet so custom was the best way to go. The button menus are suppose to close once they are outside of the buttons menu but it doesnt really work well at the moment because the mouse events are not registering well because of the dock panel.
