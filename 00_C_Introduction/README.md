@@ -1,7 +1,7 @@
 
 In order to create this project we are going to take it step by step. With every new lesson we will add a new feature until we are finished and have our desired ide.
 
-By now you should have a new project opened and a it should look something like this:
+If you followed the setup lesson correctly then you should have a new project opened and it look something like this:
 
 ![opened_project](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/1f3efc7e-d439-4d49-8657-a8acec31fa70)
 
