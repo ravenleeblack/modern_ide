@@ -11,7 +11,7 @@ The window header and main menu are combined since the window header is usually 
 If you ever wondered if you are suppose to use labels vs windows vs tabbed then the answer is: I read from the MS website that all modern ide's use tabbed windows. So all the windows are tabbed and inside a dock panel. The downside to this so far is that dock panel is preventing mouse events in the menu buttons above.
 
 3) STATUS BAR:
-At the bottom we have a status bar. In the tool bar we have a run button for our ide and when pressed at the moment it will turn the status bar dark orange to show that it is working or eventually that the compiler is running. Which is a feature of a normal ide. When the stop button is pressed  in our toolbar the status bar will return to it normal color.
+At the bottom we have a status bar. In the tool bar we have a run button for our ide and when pressed at the moment it will turn the status bar dark orange to show that it is working or eventually that the compiler is running. Which is a feature of a normal ide. When the stop button is pressed  in our toolbar the status bar will return to it normal color. I di have at one point the status of the mouse events in the right part of the status bar but it seems to be broken at the moment.
 
 4) FILE ARCHIVE:
  When creating a new project we should be creating a main folder to work out of. The file archive should be displaying the main project folder that we created and all its subfolders that would be evetually created.
