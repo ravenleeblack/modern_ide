@@ -37,3 +37,5 @@ Just a maximized window with no header and some background color.
 
 For rgb colors a good site to bookmark would be:
 https://www.rapidtables.com/web/color/RGB_Color.html
+
+In the next lesson we will set up the grid so that we can put the main menu, toolbar, statusbar, an all the tabbed windows we will need.
