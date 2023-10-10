@@ -1,6 +1,8 @@
 # Illeshian-Ide
                             
-As we all know, making the ui for a real ide, simply doesnt exist in the coding community as far learning how to. Making anything ui isnt easy per say. I am not the best in C# or xaml so I am hoping others will help contribute to this project. I have been building my own language and a compiler for it in pure c, and I am almost finished with it, so I would love to have the ui or ide part of it ready for when I do. As well as provide a spot for others to find a beginning in thier own ide journey.
+As we all know, making the ui an dthe code for a real ide, simply doesnt exist in the coding community as far learning how to build a usable one. Making anything ui isnt easy per say. Even worse we are starting to use too many of the same words for the different types of projects. For instance a text editor like vim that is strictly used in a terminal should be called a terminal editor or terminal text editor. A normal text editor like notepad should be called a text editor while a text editor inside an ide should be called an ide text editor. Thats away when searching google, we ourselves have opted to clarify and classify, in order to provide better search results so that we can access the correct info we want to code quicker. The way you approach one editor is different then the way you approach the others. For instance an ide text editor uses tabbed windows and doesnt take up the whole window like a text editor.
+
+I am not the best in C# or xaml so I am hoping others will help contribute to this project. I have been building my own language and a compiler for it in pure c, and I am almost finished with it, so I would love to have the ui or ide part of it ready for when I do. As well as provide a spot for others to find a beginning in thier own ide journey.
 
 ![Illeshian_ide](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/59f95599-8e48-4abe-a98e-481588dc6ae5)
 
