@@ -1,6 +1,6 @@
-This lesson will be fairly short cause its only setting up the grid and explaining the reasoning behind it.
+The Grid control is the most commonly used layout panel for creating user interface in xaml. The Grid is a tool, that we can use, to keep the control over our ui elements. With the Grid control, you can define the width (Columns) and the height (Rows) of the grid layout which create what I call cells. Then you can assign child controls to the cells of that grid to create a more structured layout. 
 
-A grid is a tool we use so that we can keep control over our ui elements. We can imagine that our grid is like a table and we have rows and columns to help us keep organized. So for the grid line in xaml we have Grid.ColumnDefinitions and Grid.RowDefinitions that we can use.
+In xaml, we have a Grid tag and inbetween the Grid's starting and ending tag, we have to create some properties that we can use, so Columns and Rows are defined by creating ColumnDefinition and RowDefinition properties.
 
 In the previous lesson we maximized our main window. For me at least this means that our window is now 1920 x 1080 minus the taskbar. So we can do a little math here to help us set up our grid to become more precise. Im going to start with the width of our main window or the columns because we need to know how many columns we need to get across the screen.
 
