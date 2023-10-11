@@ -27,10 +27,10 @@ Now we can create our first button for the main menu. We are going to name it ma
 So now that we have named it, and set the text for its foreground text, we need to tell the tag where we want our button control to be. Since this is the first button, we would want it in row zero and column zero, but we do not want it to span into other columns like before so we would write it like so:
 >      <Button x:Name="main_menu_file" Content="File" Grid.Row="0" Grid.Column="0"/>
 
-Now that we have it named and placed into the grid we can work on the visuals of the button control. We want to set the background color of the button and set the buttons foregroud color which is the  buttons text or content text but this time we are going to set the BorderBrush to null. With our main menu being so small in height, adding a border around each of the buttons, is going to make the main menu label control and button look very overcrowded. From what I read the less, the better, when you can. So what we need to do is make the background color of the button be the same as the label and remove the buttons border so that it looks like the button is aprt of the menu and blends in.
+Now that we have it named and placed into the grid we can work on the visuals of the button control. We want to set the background color of the button and set the buttons foregroud color which is the  buttons text or content text but this time we are going to set the BorderBrush to null. With our main menu being so small in height, adding a border around each of the buttons, is going to make the main menu label control and button look very overcrowded. From what I read the less, the better, when you can. So what we need to do is make the background color of the button be the same as the label and remove the buttons border so that it looks like the button is apart of the menu and blends in.
 >      <Button x:Name="main_menu_file" Content="File" Grid.Row="0" Grid.Column="0" Width="100" Height="18" Background="#FF141414" Foreground="Teal" BorderBrush="{x:Null}"/>
 
-As you can see, with the border, its kinda overcrowded. ITs making the touching pixels or lines look thicker then they should be:
+As you can see, with the border, its kinda overcrowded. It is making the touching pixels or lines look thicker then they should be:
 
 ![border](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/dd6daa12-f5d3-494b-972a-921008af7e9c)
 
@@ -38,9 +38,8 @@ While this one without the border blends in a little better and looks more corre
 
 ![noborder](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/4ca6fa27-46f8-4b35-b885-70d164fee461)
 
+So for the background I coose rgb 20, 20, 20, the forground I chose rgb 0, 128, 128 which is a teal and offsets from the dark background so its readable.
 
-Since we previously created the grisd to have 18 usable columns we ca not start placing buttons inside. Here we are still in the first row so Grid.Row zero and we are placing the button in the first column so Grid.Column zero but we do not want to span across the columns so no Column.Span this time. Next we click the button label line in our xaml and move into the properties tab, under layout, we want to set width to 100 and height to 18 since our row height is 20 we are giving our button a little room. We can also set the buttons background color now to maybe the same color as our main menu rgb 20, 20, 20. We can also add in the foreground color which is the text color for our button. I chose a teal color rgb 0, 128, 128.
->      <Button x:Name="main_menu_file" Content="File" Grid.Row="0" Grid.Column="0" Width="100" Height="18" Background="#FF141414" Foreground="Teal" BorderBrush="{x:Null}"/>
 
 We would do the same thing for the edit button but this time we name it main_menu_edit then change the Grid.Column to 1 this time.
 >      <Button x:Name="main_menu_edit" Content="Edit" Grid.Row="0" Grid.Column="1" Width="100" Height="18" Background="#FF141414" Foreground="Teal" BorderBrush="{x:Null}"/>
