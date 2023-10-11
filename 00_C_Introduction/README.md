@@ -1,5 +1,4 @@
-
-In order to create this project we are going to take it step by step. With every new lesson we will add a new feature until we are finished and have our desired ide.
+WPF is the successor to Window Forms for desktop application development. The user interface is written in xaml, and is seperate from the code that makes the user interface or ui work, which will be written in C#. There will be lessons in xaml and then there will be lessons in c# so that we can connect the ui elements up with the right code to make it work. In order to create this large project we are going to take it step by step. With every new lesson we will add a new feature until we are finished and have our desired ide.
 
 If you followed the setup lesson correctly then you should have a new project opened and it look something like this:
 
@@ -14,3 +13,5 @@ In future lessons I will not be be adding the Properties, References, app.config
 I will only be adding the files mainwindow.xaml and any new files that are created as we progress in order to keep the project as clean as possible. Be aware that even doe these files will be provided in all lessons, some of them may not have any changes while some do.
 
 As the lessons progress, I will use less images to explain things, that we have already covered.
+
+
