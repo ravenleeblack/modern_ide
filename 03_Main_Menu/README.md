@@ -3,8 +3,9 @@ In this lesson we will be using some label controls to make our own main menu, w
 For the main menu we will be using a label control. It doesnt seem like it will hold the buttons like a container should, so we will just use the label as a background, with the menu button we create overlaying the label. So I suppose its not techinally a custom menu because its not connected as a single ui control working together as a unit but doing it this way is better then having to deal with a normal main menu that will not let me remove the ugly white from the context drop downs.
 
 The first thing we are going to do is open up our MainWindow.xaml file again. This time we are going to create a label tag that we will use as a menu background. 
->     <label/>
-
+```
+<label/>
+```
 We are going to name our label tag so that if we ever need to refer back to this label we can.
 >     <label x:Name="main_menu"/>
 
