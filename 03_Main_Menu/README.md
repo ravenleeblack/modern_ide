@@ -14,6 +14,7 @@ Rows and Columns in the Grid start from zero like an array so the first row is a
 >     <label x:Name="main_menu" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="22"/>
 
 Next we can change the color of our label, provide an outline or border, and set the thickness of that border so that it looks nice. If you click on the label tag in the xaml code, the properties tab will be updated with the label type, and we can start editing our label. You always want to verify that you are indeed on the right control when you are working in the properties tab.
+
 ![type](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/9ce02f8d-369a-4e2e-b393-d05abf5766e3)
 
 Under Brush we can set the background color. I set mine to rgb 20, 20, 20. We can also set the BorderBrush color. I set mine to rgb 0, 0, 0 so that its a little darker then the label itself and will stand out a little bit. Then under the appearance tab, there is a down arrow that needs to be expanded to show the BorderThickness options. We will all to 1 pixel thick.
@@ -30,9 +31,11 @@ Now that we have it named and placed into the grid we can work on the visuals of
 >      <Button x:Name="main_menu_file" Content="File" Grid.Row="0" Grid.Column="0" Width="100" Height="18" Background="#FF141414" Foreground="Teal" BorderBrush="{x:Null}"/>
 
 As you can see, with the border, its kinda overcrowded. ITs making the touching pixels or lines look thicker then they should be:
+
 ![border](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/dd6daa12-f5d3-494b-972a-921008af7e9c)
 
 While this one without the border blends in a little better and looks more correct:
+
 ![noborder](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/4ca6fa27-46f8-4b35-b885-70d164fee461)
 
 
