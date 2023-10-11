@@ -1,9 +1,11 @@
-In this lesson we will be a making a custom main menu, we will add the file and edit buttons and the min, max, and exit button but we will not be hooking up the button events until another lesson since that deals with c#.
+In this lesson we will be using some controls to make our own main menu, we will add the file and edit buttons, then we will add the min, max, and exit button. We will not be hooking the mechanics for the button until another lesson. If you remember back to the introduction lesson the ui interface is written in xaml and the the mechanics are written in C# so I want to try and keep them as seperate as possible in the lessons until we have no choice.
 
-The first thing we are going to do is open up our MainWindow.xaml file again. This time we are going to create a couple labels that we will use as menu backgrounds. 
+For the main menu we will be using a label control. It doesnt seem like it will hold the buttons like a container should, so we will just use the label as a background, with the menu button we create overlaying the label. So I suppose its not techinally a custom menu because its not connected as a single ui control working together as a unit but doing it this way is better then having to deal with a normal main menu that will not let me remove the ugly white from the context drop downs.
+
+The first thing we are going to do is open up our MainWindow.xaml file again. This time we are going to create a couple label controls that we will use as a menu background. 
 >     <label/>
 
-We are going to name our label so if we need to refer to it anywhere later in our code then we can.
+We are going to name our label so that if we need to refer to this particular label control later then we have a name that we can refer to.
 >     <label x:Name="main_menu"/>
 
 Now we need to set what row and column we want to use. Rows and columns in xaml start from zero like an array so we want to start in the zero row so we set Grid.Row to zero and we want to start in the zero column so we set the Grid.Column to zero but we want the main menu to be longer then one column so we need to use ColumnSpan to span across 19 of the columns. This will cover our 18 usable button columns and our 1 spacer column. This will keep our actual main menu and its buttons seperate from our custom made menu for the header buttons we are about to create.
