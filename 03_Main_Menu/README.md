@@ -30,4 +30,8 @@ We also need to turn BorderBrush for all these buttons so they look better like 
 At this point the window should like this:
 ![window_menu](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/2b2a16c8-33e7-443c-99ac-dd2b5f22b9b1)
 
+![menu_1](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/f2fc24f5-cedf-4871-b8d5-5e7911fd99e2)
+
+![menu_2](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/833f5370-1dfa-4649-b45a-3485de379a19)
+
 If you need to verify the code please refer to the MainWindow.xaml attached to this lesson.
