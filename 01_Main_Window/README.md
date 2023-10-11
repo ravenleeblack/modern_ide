@@ -2,7 +2,7 @@ So we have created a new project and should now be setup. If you press the compi
 
 ![simple_window](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/d52c1456-4a2e-4c0d-af76-3c4066110823)
 
-Its a really basic window, but thats ok, we will work on our visual representation and turn it into something. Before getting into the more difficult things in later lessons lets first set up this window to look a little better and provide us some more room to work.
+Its a really basic window, but thats ok, we will work on our visual representation and turn it into something. Before getting into the more difficult controls in later lessons lets go ahead and set this window up to look a little better and provide us with some more room to work with.
 
 The first thing were going to do is maximize our screen. In our mainwindow.xaml file we are going to add WindowState="Maximized" to the the title line.
 
