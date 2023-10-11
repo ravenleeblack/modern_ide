@@ -40,3 +40,5 @@ Some of these, may be just pipe dreams, but nevertheless i'll add them. We will 
 Any folders or files in side the sub folder would not be subjected to the same course of action as the sub folder itself. This would allow you to work on two related projects and test them as you go and it would allow you to share more easily between shared libs between projects/programs.
 
 13) As part of the program button, I would like to create small programs, that can be ran out of the program in this ide. For example a pre-written lexer exectuable that will lex the file. And other similiar programs. These programs could be added though the plugin system and allow it to be in the drop down list of the program button if plugin for it is enabled.
+
+The need for a plugin framework isnt to plugin third party software but to create the plugins needed for this project ourselves.
