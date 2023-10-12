@@ -6,7 +6,9 @@ There are usally 2 main parts to any front end program:   the UI elements and th
 
 In this project we will be using xaml for the ui elements and C# for the mechanics. I am not claiming to be good at either xaml or c# but I will try my best to start collecting the infomation needed to create a real ide. 
 
-I really would like this to be a place for others to start or refer to, when trying to create and design, thier own ide. The way I have decided to approach this is in lessons that build up over time and maybe, just maybe, one day we will have a real something to look forward too. So I am hoping others will help contribute to this project. 
+I really would like this to be a place for others to start or refer to, when trying to create and design, thier own ide. 
+
+The way I have decided to approach this is in lessons that build up over time and maybe, just maybe, one day we will have a real something to look forward too. So I am hoping others will help contribute to this project. 
 
 
 
