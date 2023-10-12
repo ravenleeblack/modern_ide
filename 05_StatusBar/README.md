@@ -20,6 +20,7 @@ Ill get back to you with more infomation about the the StatusBarItem itself but 
 
 
 
+
 For the moment, I think the StatusBar will stay in the middle of the DockPanel, until we add in more windows. So at the moment you should have a window that looks like this at runtime:
 
 ![screen_2](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/4a5934e0-769d-4703-96bb-4420f5753a9f)
