@@ -31,9 +31,9 @@ The goals of this project:
 - Syntax formatting and options for new languages
 - True theme setting for the user
 - Get the run button connected to a couple of backends for testing (compiler/assembler)
-- More like VS and less like sublime or atom
+- More like VS and less like sublime or atom  (truly no disrespect to sublime or atom users just feel they are overly crowded in the main menu. I want and like simple. I do love atom website colors doe!!!)
 - A way to put sub folders on the command line and add to path of the button project path
-- A way to add exectuables to the list in the project button   ( so you can pick your compiler/assembler then your project path before pressing play)
+- A way to add executables to the list in the project button   ( so you can pick your compiler/assembler then your project path before pressing play)
 
 - debugger
 - hex reader, converter, formatter
