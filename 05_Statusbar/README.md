@@ -14,4 +14,5 @@ Ill get back to you with more infomation about the the StatusBarItem itself but 
       </StatusBar>
 
 </DockPanel>
+
 ```
