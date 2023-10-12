@@ -16,7 +16,9 @@ We will be making our own custom min, max, and exit buttons later so dont worry.
 
 Now for the color of the background, I am not sure if adding the background color to the title tag line, would be the proper way of doing things. The reason being is that the grid tag line in our code seems to indicate that the grid itself overlays the title. So I suppose since we will be using the grid it would be better to add the background color to the grid. Later other ui elements will overlay the grid and the grid will still provide the nice background color that we chose.
 
-If you use your cursor and click on the grid tag line in the xaml file it will select the grid. We should now have a properties tab window open under the solution explorer that shows the options for our grid. We can double check that we have indeed clicked on the grid tag because in properties under Name will be a Tyoe and it should say Grid. This will change anytime you click on a new tag in xaml and a good way to make sure you are on the right ui element or control so you are not messing your own work up because you werent on the right control or element.
+If you use your cursor and click on the grid tag line in the xaml file it will select the grid. We should now have a properties tab window open, under the solution explorer, that shows you the options for our grid.
+
+We can double check at this point that we have indeed clicked on the grid tag. Under properties you will have properties Name and under it will be a properties Type and it should say Grid. This will change anytime you click on a new tag in xaml and a good way to make sure that you are on the right ui element or control so you are not messing your own work up. Its all good, we've all been there, chin up.
 
 ![prop](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/f4938c84-51d0-4940-aa7c-64c4bd594100)
 
