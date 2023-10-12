@@ -1,3 +1,4 @@
+#XAML LESSON
 
 So we have a new project setup. If you press the compile or run button you should have a simple window that looks something like this displaying:
 
