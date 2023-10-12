@@ -2,7 +2,9 @@
 
 The frontend can be broken into two main categories: The UI elements and the mechanics behind the UI elements to make them work. We will be writing the ui in xaml and we will be connecting the mechanics with C#. In order to tackle this large project we are going to take it step by step.
 
-With every new lesson added we will add a new feature until we are finished and have our desired ide. I think the most logical way to approach this is to start off by getting all the ui laid out and looking nice before we start trying to hook the mechanics or code behind up. After all the xaml ui lessons are finished we beging the lessons on hooking the ui to the proper mechanics to get the ui working right in C#. If anything this will also make it easier for any contributers to take on a lesson if they feel want too.
+Each step we will call a lesson. In every new lesson we will add a little more or a new feature until we are finished and have our desired ide. I think the most logical way to approach this is to start off by getting all the UI elements laid out and looking nice, before we start trying to hook the mechanics or code behind up, to the UI elements. After we have finished all the UI elements then we will move into the C# lessons.
+
+
 
 If you have followed the setup lesson correctly then you should have a new project opened and the project should look something like this:
 
