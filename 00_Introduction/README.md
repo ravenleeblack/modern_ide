@@ -19,3 +19,8 @@ In future lessons I will not be be adding the Properties, References, app.config
 I will only be adding the files MainWindow.xaml and any new files that are created as we progress in order to keep the project as clean as possible. Be aware that even doe these files will be provided in all lessons, some of them may or may not have any changes made to them. So you will have to follow along to see what has been changed.
 
 If you click on the right arrow before MainWindow.xaml you will see the the file MainWindow.xaml.cs. The MainWindow.xaml is your xaml file and the MainWindow.xaml.cs file is your C# file.
+
+
+```
+On the left side of visual studio we have a toolbox window. I know it seems tempting to just drag and drop controls onto the form but please dont. In doing so it will fill out your xaml tag lines with stuff you may not even want and its just more work to have to adjust it all.
+```
