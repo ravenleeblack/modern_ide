@@ -1,6 +1,8 @@
 # Introduction
 
-The frontend can be broken into two main categories: The UI elements and the mechanics behind the UI elements to make them work. We will be writing the ui in xaml and we will be connecting the mechanics with C#. In order to tackle this large project we are going to take it step by step. With every new lesson added we will add a new feature until we are finished and have our desired ide. I think the most logical way to approach this is to start off by getting all the ui laid out and looking nice before we start trying to hook the mechanics or code behind up. Then afterwards we will start hooking all the mechanics up using C#. If anything this will also make it easier for any contributers to take on a lesson they feel they can achieve.
+The frontend can be broken into two main categories: The UI elements and the mechanics behind the UI elements to make them work. We will be writing the ui in xaml and we will be connecting the mechanics with C#. In order to tackle this large project we are going to take it step by step.
+
+With every new lesson added we will add a new feature until we are finished and have our desired ide. I think the most logical way to approach this is to start off by getting all the ui laid out and looking nice before we start trying to hook the mechanics or code behind up. After all the xaml ui lessons are finished we beging the lessons on hooking the ui to the proper mechanics to get the ui working right in C#. If anything this will also make it easier for any contributers to take on a lesson if they feel want too.
 
 If you have followed the setup lesson correctly then you should have a new project opened and the project should look something like this:
 
@@ -12,6 +14,6 @@ In the file solution you should have something like this:
 
 In future lessons I will not be be adding the Properties, References, app.config, or app.xaml files into each of the lessons. These are automatically added when the project is created. I will only add them if there has been any changes made but for the most part I do not see a reason that they will change.
 
-I will only be adding the files MainWindow.xaml and any new files that are created as we progress in order to keep the project as clean as possible. Be aware that even doe these files will be provided in all lessons, some of them may not have any changes while some do.
+I will only be adding the files MainWindow.xaml and any new files that are created as we progress in order to keep the project as clean as possible. Be aware that even doe these files will be provided in all lessons, some of them may or may not have any changes made to them. So you will have to follow along to see what has been changed.
 
 If you click on the right arrow before MainWindow.xaml you will see the the file MainWindow.xaml.cs. The MainWindow.xaml is your xaml file and the MainWindow.xaml.cs file is your C# file.
