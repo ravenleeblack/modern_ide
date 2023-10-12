@@ -22,5 +22,7 @@ If you click on the right arrow before MainWindow.xaml you will see the the file
 
 
 ```
-On the left side of visual studio we have a toolbox window. I know it seems tempting to just drag and drop controls onto the form but please dont. In doing so it will fill out your xaml tag lines with stuff you may not even want and its just more work to have to adjust it all.
+On the left side of visual studio we have a toolbox window. I know it seems tempting to just drag and drop controls onto
+the form but please dont. In doing so it will fill out your xaml tag lines with stuff you may not even want and its just
+more work to have to adjust it all.
 ```
