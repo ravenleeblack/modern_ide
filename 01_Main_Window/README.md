@@ -32,10 +32,6 @@ Now we should have a main window that looks like this:
 
 ![screen_1](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/70a62453-6fdc-4f64-af2a-8912a36ac6f3)
 
-If you want to verify the xaml code:
-
-![grid](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/385874f5-6342-4c52-a68d-627bb350074a)
-
 Just a maximized window with no header and some background color.
 
 For rgb colors a good site to bookmark would be:
