@@ -56,4 +56,3 @@ With these modifications, your window should now resemble this:
 
 ![Window with Main Menu](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/2b2a16c8-33e7-443c-99ac-dd2b5f22b9b1)
 
-Feel free to refer to the attached MainWindow.xaml code for verification.
