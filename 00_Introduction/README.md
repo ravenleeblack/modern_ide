@@ -14,4 +14,4 @@ In the file solution you should have something like this:
 
 In the upcoming lessons, we won't include properties, references, app.config, or app.xaml files since these are automatically generated during the project's creation. We will only introduce them if any changes become necessary. To maintain a clean project structure, we'll focus on adding MainWindow.xaml and any new files we create as we progress.
 
-Please note that while these files will be present in all lessons, some may remain unchanged, so it's essential to follow along to identify any modifications.
+Please note that while some files will be present in all lessons, some may remain unchanged, so it's essential to follow along to identify any modifications.
