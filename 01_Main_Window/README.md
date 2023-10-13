@@ -4,9 +4,9 @@ After successfully creating your project, when you press the compile or run butt
 
 ![Simple Window](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/d52c1456-4a2e-4c0d-af76-3c4066110823)
 
-While this window appears quite basic, that's perfectly fine because we're going to refine its visual appeal and functionality step by step. Before delving into more complex controls in later lessons, let's start by improving the window's aesthetics and usability.
+The window is quite basic, that's perfectly fine, because we're going to refine its visual appeal and functionality step by step. Before delving into more complex controls in later lessons, let's start by giving ourselfs some more room to work with.
 
-**Maximizing the Screen**
+**Maximize the Screen**
 
 To give us more space to work with, the first step is to maximize the window. In your MainWindow.xaml file, add `WindowState="Maximized"` to the XAML title tag line:
 
@@ -14,7 +14,7 @@ To give us more space to work with, the first step is to maximize the window. In
 Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
 ```
 
-**Removing the Window's Header**
+**Remove the Window's Header**
 
 Next, we'll remove the window's header to regain some screen real estate. Add `WindowStyle="None"` to the title tag line as well:
 
@@ -24,7 +24,7 @@ Title="MainWindow" Height="450" Width="800" WindowState="Maximized" WindowStyle=
 
 You might wonder how to exit the window since the previous method is no longer available. For now, clicking the Visual Studio icon in your taskbar and shutting down the running VS instance will close the window. Don't worry; we'll implement our own custom min, max, and exit buttons in future lessons.
 
-**Setting the Background Color**
+**Set the Background Color**
 
 Choosing the background color for the window requires a different approach. Adding it to the title tag line may not be the most appropriate method because the grid tag line in our code suggests that the grid overlays the title. We'll use the grid to set the background color, which will remain consistent even as we add more UI elements that overlay the grid.
 
