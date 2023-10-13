@@ -1,34 +1,40 @@
+In this lesson, we're creating the UI element for the Output window using the TabControl tag. Let's start by naming it:
 
-In this lesson we are going to make the UI element for the Output window. Basically the same thing we did last lesson with a few changes. In order to do this we will use the TabControl tag again. Lets name it like we usally do.
-
-```
+```xml
 <TabControl x:Name="output_window">
 </TabControl>
 ```
 
-Since we are starting to get familiar with the properties tab we need to go to layout, dock and set the tab windows dock to be left this time, next we change the background color to rgb 20, 20, 20 so that it matches with the rest of our ui. We can set our foreground color to white rgb 250, 250, 250 for later use. We can set BorderBrush to be rgb 0, 0, 0 so that we have a nice dark border. Under layout we need to set the width to 300 and the height to 974.
+You're getting familiar with the properties tab, so we can configure the TabControl as follows:
 
-```
-<TabControl x:Name="output_window" DockPanel.Dock="Left"  Background="#FF141414" Foreground="White" BorderBrush="Black" Width="290" Height="974">
+1. Go to the layout section and set the tab window's dock to "Left" this time.
+2. Change the background color to match the rest of your UI, which is RGB 20, 20, 20.
+3. Set the foreground color to white (RGB 250, 250, 250) for later use.
+4. Set BorderBrush to RGB 0, 0, 0 for a nice dark border.
+5. In the layout section, set the width to 300 and the height to 974.
+
+Here's the revised code:
+
+```xml
+<TabControl x:Name="output_window" DockPanel.Dock="Left" Background="#FF141414" Foreground="White" BorderBrush="Black" Width="300" Height="974">
 </TabControl>
 ```
 
-If you have done everything properly your window should look like this:
+If you've done everything correctly, your window should look like this:
 
 ![screen_5](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/2631e900-facb-4041-a41f-90d6ba42fc27)
 
-Lets go ahead and add the add TabItem code:
+Now let's add the TabItem code:
 
-```
-<TabControl x:Name="output_window" DockPanel.Dock="Right"  Background="#FF141414" Foreground="White" BorderBrush="Black" Width="290" Height="974">
+```xml
+<TabControl x:Name="output_window" DockPanel.Dock="Right" Background="#FF141414" Foreground="White" BorderBrush="Black" Width="290" Height="974">
      <TabItem x:Name="output_tab" Header="Output" Background="#FF141414" BorderBrush="Black" Height="20" Width="80" Foreground="Teal">
           Some sample text
      </TabItem>
 </TabControl>
 ```
 
+With these changes, your window should now look like this:
+
 ![screen_6](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/28170aca-6585-4424-9e56-9da1c85b218f)
-
-
-I just did the last lesson so I havent figured out the TabItem works just yet so until I do figure it out I am going to just keep trucking forward. Ill come back eventually and update them.
 
