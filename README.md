@@ -1,45 +1,56 @@
-# Illeshian-Ide
+# Illeshian-Ide - Building an IDE from Scratch
 
-The documentation to design a real ide seems to be non-existing. I hope over time members of the community will help contribute that wonderful knowledge.
+Creating a real Integrated Development Environment (IDE) is a challenging endeavor, and the documentation on how to go about it is scarce. I hope that, with time, members of the community will come together to contribute their valuable knowledge to this project.
 
-There are usally 2 main parts to any front end program:   the UI elements and the mechanics behind the UI elements to make them work. 
+Any frontend program typically consists of two primary components: the User Interface (UI) elements and the underlying mechanics that make those elements work seamlessly.
 
-In this project we will be using xaml for the ui elements and C# for the mechanics. I am not claiming to be good at either xaml or c# but I will try my best to start collecting the infomation needed to create a real ide. 
+In our project, we're leveraging XAML for the UI elements and C# for the mechanics. While I can't claim expertise in either XAML or C#, I'm committed to gathering the information required to develop a full-fledged IDE. My vision for this project is for it to serve as a valuable resource for those embarking on their journey to create and design their own IDE.
 
-I really would like this to be a place for others to start or refer to, when trying to create and design, thier own ide. 
-
-The way I have decided to approach this is in lessons that build up over time and maybe, just maybe, one day we will have a real something to look forward too. So I am hoping others will help contribute to this project. 
-
-
+My approach to this project is organized into lessons that will gradually build up over time. I'm optimistic that, with the help of others in the community, we can create something truly remarkable. It's a collaborative effort that we hope others will join.
 
 ![Illeshian_ide](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/59f95599-8e48-4abe-a98e-481588dc6ae5)
 
-
-I am a pure c and nasm kind of guy and I have been building my own language and the compiler for it over the last few years, and I am almost finished with it. So you can see why I would love to have the UI frontend ready for when I do finish the compiler. This of course has steered me into learning WPF xaml for the user interface so I hope someone finds this project interesting enough to help make this a thing.
-
+As someone who has been deeply involved in C and NASM programming and has been working on a language and its compiler for several years, I am on the brink of completing this compiler. Consequently, I'm eager to have the UI frontend ready for when I finish the compiler. This has led me to delve into learning WPF XAML for the user interface. I hope that this project will pique the interest of others and encourage their participation in making it a reality.
 
 
-The goals of this project:
+You can make the text sound better and more engaging by improving its structure, clarity, and overall readability. Here's a revised version of your text:
 
-- Edit files in a tabbed window
-- Create new files in a tabbed window
-- Open files into a tabbed window
-- Save files from a tabbed window
-- A plugin framework to make everything work properly like a real ide
-- Dockable windows that can be redocked
-- Syntax formatting for current languages
-- Syntax formatting and options for new languages
-- True theme setting for the user
-- Get the run button connected to a couple of backends for testing (compiler/assembler)
-- More like VS and less like sublime or atom  (truly no disrespect to sublime or atom users just feel they are overly crowded in the main menu. I want and like simple. I do love atom website colors doe!!!)
-- A way to put sub folders on the command line and add the path to the listbox in project path button
-- A way to add executables to the listbox in the project button  (so you can pick your compiler/assembler then your project path before pressing play)
+Project Title: Illeshian-Ide - Building an IDE from Scratch
 
-- debugger
-- hex reader, converter, formatter
-- binary reader, converter, formatter
+Creating a real Integrated Development Environment (IDE) is a challenging endeavor, and the documentation on how to go about it is scarce. We are hopeful that, with time, members of the community will come together to contribute their valuable knowledge to this project.
+
+Any frontend program typically consists of two primary components: the User Interface (UI) elements and the underlying mechanics that make those elements work seamlessly.
+
+In our project, we're leveraging XAML for the UI elements and C# for the mechanics. While I can't claim expertise in either XAML or C#, I'm committed to gathering the information required to develop a full-fledged IDE. My vision for this project is for it to serve as a valuable resource for those embarking on their journey to create and design their own IDE.
+
+My approach to this project is organized into lessons that will gradually build up over time. I'm optimistic that, with the help of others in the community, we can create something truly remarkable. It's a collaborative effort that we hope others will join.
+
+Illeshian_ide
+
+As someone who has been deeply involved in C and NASM programming and has been working on a language and its compiler for several years, I am on the brink of completing this compiler. Consequently, I'm eager to have the UI frontend ready for when I finish the compiler. This has led me to delve into learning WPF XAML for the user interface. I hope that this project will pique the interest of others and encourage their participation in making it a reality.
+
+
+Goals of this Project:
+
+1 Edit files within a tabbed window.
+1 Create new files within a tabbed window.
+1 Open files in a tabbed window.
+1 Save files from a tabbed window.
+1 Implement a plugin framework to ensure the proper functioning of the IDE.
+1 Allow for dockable windows that can be redocked as needed.
+1 Provide syntax formatting for existing programming languages.
+1 Offer syntax formatting options for new and custom languages.
+1 Allow users to choose and customize themes.
+1 Connect the "Run" button to multiple backends for testing, such as a compiler or assembler.
+1 Create an interface more similar to Visual Studio, prioritizing simplicity.
+1 Facilitate the inclusion of subfolders in the command line and add path selection to the project path button.
+1 Enable the addition of executables to the listbox in the project button for compiler and assembler selection before execution.
+
+In addition to these features, we have ambitious plans for this project:
+1 Debugger
+2 Hex reader, converter, and formatter
+1 Binary reader, converter, and formatter
 
 ![compiler_options](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/aedea48b-15cb-4834-8d80-f31305f03432)
 
-
-If you want to help I am around my computer alot so I can return convos fairly quick. If you dont want to submit here then I welcome emails and even would to see anyone make a video.
+If you're interested in contributing or have any questions, feel free to reach out. I'm frequently available near my computer and will respond to messages promptly. If you prefer to communicate via email or even create a video discussing the project, I welcome and encourage such contributions. Let's make this IDE a reality, together!
