@@ -11,15 +11,16 @@
 4. **Choose "Project..."**
 
 5. **Under "Visual C#," click "WPF App (.NET Framework)"**
+6. 
    ![WPF App (.NET Framework)](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/0f432ebc-6e58-4355-bfe3-b0e47c0b39df)
 
-6. **Name Your Project**
+7. **Name Your Project**
    ![Name Your Project](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/9e3c7ee3-3081-4637-9f50-93997ed2998e)
 
-7. **Choose a Directory for Your Project**
+8. **Choose a Directory for Your Project**
    ![Choose Directory](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/38ba900e-049b-41c7-bd4f-bbcde589b9b1)
 
-8. **Click "Ok"**
+9. **Click "Ok"**
    ![Click Ok](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/dcc5516d-835e-4890-a3be-26678e136fdc)
 
 Follow these simple steps to set up your project in Visual Studio!
