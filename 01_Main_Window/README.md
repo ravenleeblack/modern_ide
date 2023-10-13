@@ -1,4 +1,4 @@
-**Enhancing the Initial Window Setup**
+**The Initial Window Setup**
 
 After successfully creating your project, when you press the compile or run button, you'll be greeted with a simple window that looks like this:
 
