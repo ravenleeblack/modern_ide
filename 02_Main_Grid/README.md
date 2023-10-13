@@ -1,16 +1,20 @@
-The Grid control is the most commonly used layout panel for creating user interface in xaml. The Grid is a tool, that we can use, to keep control over the ui elements. With the Grid control, you can define the width (Columns) and the height (Rows) of the grid layout which will create what I call cells. You can then assign child controls, to the cells of that grid, in order to create a more structured layout. 
+Certainly, here's a more concise and organized version:
 
-In the xaml code, we have a Grid tag and inbetween the Grid's starting and ending tag, we have to create some properties that we can use, so Columns and Rows are defined by creating ColumnDefinition and RowDefinition properties. As you will see soon in the images below the properties for columns is width and the properties of rows is height.
+**Leveraging the Grid Control for UI Layout**
 
-In the previous lesson we maximized our main window. For me at least this means that our window is now 1920 x 1080 minus the taskbar. I want to make the main menu as long or wide as the window so the full 1920 in pixels and then I want the height of the main menu to be 20 pixels in height. So we can do a little math here to help us set up our grid to become more precise. Im going to start with the width of our main window to calculate the columns needed. So what I did was to start with 1920 / 100 which give us 1900 pixels and leaves us 20 pixels. This means we would have 19 columns that would be 100 pixels long and 1 column with 20 pixels left. But we have to take into consideration that when we make the main menu that will be creating 3 custom buttons for min, max, and exit. So I had to alter it to become 18 columns at 100 pixels for main menu buttons, 1 column at 60 pixels used as a spacer, and 3 columns at 20 pixels in width used for our 3 headers buttons. Really doubt we will ever need 18 buttons for the main menu so this gives us plenty of room. 
+The Grid control is a fundamental layout panel for crafting user interfaces in XAML. It serves as a valuable tool to maintain control over UI elements' placement and organization. With the Grid control, you can define the width (Columns) and height (Rows) of the layout, effectively creating a grid of cells where you can position child controls for a structured layout.
 
-![grid_width](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/2bc01221-eaa9-4d81-a4a5-88f1e7977bf2)
+Within the XAML code, you'll find a `<Grid>` tag, between which you define properties to establish the layout's structure. This involves specifying the number and dimensions of both columns and rows. The properties ColumnDefinition and RowDefinition are used for this purpose. In our case, the ColumnDefinition property relates to the width of columns, while the RowDefinition property pertains to the height of rows.
 
-For the rows I did 4 fixed rows of 20 pixels in height. 1 row for the main menu, 1 row for the toolbar and 2 rows used as a spacer to make sure the ui interface doesnt become too overcrowded. I then used the asterik * to make the remaining 5th row a variable sized row which means it can be adjusted as needed. 
+In the previous lesson, we maximized our main window, making it 1920 x 1080 pixels (excluding the taskbar). We aimed to create a main menu that spans the entire width (1920 pixels) and has a height of 20 pixels. To achieve precision in our layout, we performed a simple calculation. We divided the window width (1920) by 100, resulting in 19 columns, each 100 pixels wide, and 1 column with 20 pixels remaining. However, considering that the main menu will feature 3 custom buttons (for minimizing, maximizing, and exiting), we adjusted the layout to include 18 columns of 100 pixels each for the main menu buttons, 1 column of 60 pixels for spacing, and 3 columns of 20 pixels for the header buttons. This provides ample room for our needs, even if we don't require all 18 main menu buttons.
 
-![grid_height](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/50730772-8ebd-4efd-ba1a-be834e331cab)
+![Grid Width](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/2bc01221-eaa9-4d81-a4a5-88f1e7977bf2)
 
-So now we have 5 rows of 22 columns that we are able to use to layout th ui for our ide program.
+For the rows, we designated 4 fixed rows, each with a height of 20 pixels. The first row is for the main menu, the second for the toolbar, and the remaining two serve as spacers to prevent overcrowding in the UI interface. The fifth row is set as a variable-sized row using the asterisk (*), allowing it to be adjusted as needed.
+
+![Grid Height](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/50730772-8ebd-4efd-ba1a-be834e331cab)
+
+With this grid layout in place, we have a versatile framework consisting of 5 rows and 22 columns, ready to accommodate the layout of our IDE program's user interface.
 
 
 
