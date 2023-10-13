@@ -13,23 +13,6 @@ My approach to this project is organized into lessons that will gradually build 
 As someone who has been deeply involved in C and NASM programming and has been working on a language and its compiler for several years, I am on the brink of completing this compiler. Consequently, I'm eager to have the UI frontend ready for when I finish the compiler. This has led me to delve into learning WPF XAML for the user interface. I hope that this project will pique the interest of others and encourage their participation in making it a reality.
 
 
-You can make the text sound better and more engaging by improving its structure, clarity, and overall readability. Here's a revised version of your text:
-
-Project Title: Illeshian-Ide - Building an IDE from Scratch
-
-Creating a real Integrated Development Environment (IDE) is a challenging endeavor, and the documentation on how to go about it is scarce. We are hopeful that, with time, members of the community will come together to contribute their valuable knowledge to this project.
-
-Any frontend program typically consists of two primary components: the User Interface (UI) elements and the underlying mechanics that make those elements work seamlessly.
-
-In our project, we're leveraging XAML for the UI elements and C# for the mechanics. While I can't claim expertise in either XAML or C#, I'm committed to gathering the information required to develop a full-fledged IDE. My vision for this project is for it to serve as a valuable resource for those embarking on their journey to create and design their own IDE.
-
-My approach to this project is organized into lessons that will gradually build up over time. I'm optimistic that, with the help of others in the community, we can create something truly remarkable. It's a collaborative effort that we hope others will join.
-
-Illeshian_ide
-
-As someone who has been deeply involved in C and NASM programming and has been working on a language and its compiler for several years, I am on the brink of completing this compiler. Consequently, I'm eager to have the UI frontend ready for when I finish the compiler. This has led me to delve into learning WPF XAML for the user interface. I hope that this project will pique the interest of others and encourage their participation in making it a reality.
-
-
 Goals of this Project:
 
 1 Edit files within a tabbed window.
