@@ -1,33 +1,35 @@
+In the previous lesson, we prepared the DockPanel, a necessary step for this lesson. Now, we'll focus on setting up the status bar at the bottom of our window and integrating it into the DockPanel. The StatusBar control is primarily used to host controls that display information, such as Label and ProgressBar controls.
 
-In the previous lesson we set up the DockPanel. We had to set it up before we could move on to this lesson. In this lesson we will be setting up the status bar at the bottom of our window. We will be adding it into the DockPanel. The StatusBar control is used primary to host controls that display information such as the Label and ProgressBar controls.
+With the DockPanel already in place, here's how to configure the StatusBar:
 
-We have already set up the DockPanel so we dont need to worry about it in the code below. It is just an example of how the statusbar is suppose to look inside the opening and closing tags. First we are going to name our statusbar ```x:Name="status_bar"``` just in case we need it call it for future reference. Nexr we are going to set the statusbar into the DockPanel and put it into the bottom panel. ```DockPanel.Dock="Bottom"```. Like before I like to keep code somewhat uniform we will set our background color, foreground color, BorderBrush, and then our BorderThickness. I try to keep using the samein all areas so that its read and access when we use a certain pattern the same way everytime. I chose to make the Background color ```Background="#FF1E1E1E"``` rgb 20, 20, 20 which should match our main menu. I chose to make the foreground color ```Foreground="DarkOrange"``` a bright orange this time to offset the darkness at the bottom and to show a new area of infomation since we used Teal for the the main menu area. The orange rgb is 255, 140, 0.  Then we need to set a border ```BorderBrush="Black"``` which has been rgb 0, 0, 0  and finally we set the border thickness which has been 1 on all 4 sides. ```BorderThickness="1"```. Under layout we need to make sure the Statusbar's width is 1920 and the height is at 20 otherwise you will get some funky results because its set at 300 something.
-
-Ill get back to you with more infomation about the the StatusBarItem itself but here we are using one so that we can use the TextBlock. Again we name the TextBlock  and then we set the text we need which is just the status of our ide. We are going to be making the StatusBar change fully to an orange later when the run button is pressed and it will say Status: Running so having the StatusBar TxtBlock be set to Status: Ready seems to make sense.
-
-```
+```xml
 <DockPanel Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="22" LastChildFill="True">
 
       <StatusBar x:Name="status_bar" DockPanel.Dock="Bottom" Background="#FF1E1E1E" Foreground="DarkOrange" BorderBrush="Black" BorderThickness="1">
            <StatusBarItem>
-                 TextBlock x:Name="status_text" Text="Status: Ready" />
+                 <TextBlock x:Name="status_text" Text="Status: Ready" />
            </StatusBarItem>
       </StatusBar>
 
 </DockPanel>
-
 ```
 
+In this code:
 
+- We've named our StatusBar as `x:Name="status_bar"` for future reference.
+- The `DockPanel.Dock="Bottom"` attribute ensures that the StatusBar is placed at the bottom of the DockPanel.
+- We've set the background color to `Background="#FF1E1E1E"`, matching the main menu's color.
+- The foreground color is set to `Foreground="DarkOrange"`, providing a contrasting bright orange color to offset the darkness at the bottom. The RGB values for this orange are 255, 140, 0.
+- The BorderBrush is set to black with RGB values of 0, 0, 0, and the BorderThickness is set to 1 on all four sides.
+- We've adjusted the StatusBar's width to 1920 and the height to 20.
 
+Regarding the StatusBar's TextBlock, we've named it and set its text to "Status: Ready" for now. We plan to make the StatusBar fully orange when the run button is pressed and display "Status: Running." Therefore, having the initial text as "Status: Ready" is appropriate.
 
-For the moment, I think the StatusBar will stay in the middle of the DockPanel, until we add in more windows. So at the moment you should have a window that looks like this at runtime:
+For the time being, the StatusBar will remain in the middle of the DockPanel. So at this stage, your window should look like this at runtime:
 
 ![screen_2](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/4a5934e0-769d-4703-96bb-4420f5753a9f)
 
 And the new StatusBar:
 
 ![statusbar](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/29696fe4-8fb5-4baf-8441-735818b13290)
-
-
 
