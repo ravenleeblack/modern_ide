@@ -4,7 +4,7 @@ After successfully creating your project, when you press the compile or run butt
 
 ![Simple Window](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/d52c1456-4a2e-4c0d-af76-3c4066110823)
 
-The window is quite basic, that's perfectly fine, because we're going to refine its visual appeal and functionality step by step. Before delving into more complex controls in later lessons, let's start by giving ourselfs some more room to work with.
+The window is quite basic, that's perfectly fine, because we're going to refine its visual appeal and functionality step by step. Before delving into more complex controls in later lessons, let's start by giving ourself some more room to work with.
 
 **Maximize the Screen**
 
