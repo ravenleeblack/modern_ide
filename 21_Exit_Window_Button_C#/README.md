@@ -4,7 +4,7 @@ In this lesson I finally added the much needed click event in our xaml for the e
 <Button x:Name="main_header_exit" Content="X"  Grid.Column="21" Width="16" Height="16" Padding="0" Background="#FF141414" Foreground="Teal" BorderBrush="{x:Null}" Click="exit_program" />
 ```
 
-Once the click event has been added, it will a exit_program function, in the file MainWindow.xaml.cs.
+Once the click event has been added, it will make an exit_program function, in the file MainWindow.xaml.cs.
 
 ```
      private void exit_program(object sender, RoutedEventArgs e)
