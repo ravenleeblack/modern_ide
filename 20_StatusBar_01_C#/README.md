@@ -1,3 +1,5 @@
+In this lesson we are going to use C# to make our run button change the color of the status bar to an orange rgb and show the text ```Status: Running``` when the button is pressed. We will also code the stop button to return it back to normal. Its a very easy lesson.
+
 lesson updates coming soon
 
 
