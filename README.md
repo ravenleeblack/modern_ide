@@ -15,7 +15,7 @@ The way I have decided to approach this is in lessons that build up over time an
 ![Illeshian_ide](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/59f95599-8e48-4abe-a98e-481588dc6ae5)
 
 
-I am a pure c and nasm kind of guy and I have been building my own language and the compiler for it over the last few years, and I am almost finished with it. So you can see why I would love to have the ui frontend ready for when I do finish the compiler. This of course has steered me into learning wpf xaml for the user interface so I hope someone finds this project interesting enough to help make this a thing.
+I am a pure c and nasm kind of guy and I have been building my own language and the compiler for it over the last few years, and I am almost finished with it. So you can see why I would love to have the UI frontend ready for when I do finish the compiler. This of course has steered me into learning WPF xaml for the user interface so I hope someone finds this project interesting enough to help make this a thing.
 
 
 
