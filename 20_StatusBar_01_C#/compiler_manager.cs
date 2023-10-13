@@ -10,8 +10,7 @@ using System.Windows.Media;
 using System.Windows.Controls.Primitives;
 
 
-
-namespace Illeshian
+namespace Illeshian_Ide_
 {
     public class compiler_manager : Window
     {
