@@ -1,8 +1,6 @@
 # Introduction
 
-Creating an Integrated Development Environment (IDE) from the ground up involves mastering two essential components: the User Interface (UI) elements and the mechanics that power them. My approach is to craft these UI elements using XAML, while then connect their mechanics using C#. Given the complexity of this undertaking, I have devised a step-by-step plan to guide us through the development process.
-
-With each new lesson, we introduce additional features or refine the existing ones, inching closer to our vision of a fully-functional IDE. My strategy is rooted in the belief that by breaking it down into small steps or lessons then over time with help from the community we can make a large project like this become something very much managable. We first focus on designing and laying out the UI elements. Then after the UI is perfected we'll delve into the world of C# to bring the mechanics to life.
+Creating an Integrated Development Environment (IDE) from the ground up involves mastering two essential components: the User Interface (UI) elements and the mechanics that power them. My approach is to craft these UI elements using XAML, then connect their mechanics using C#. With each new lesson, we introduce additional features or refine the existing ones, inching closer to our vision of a fully-functional IDE. My strategy is rooted in the belief that by breaking it down into small steps or lessons then over time with help from the community we can make a large project like this become something very much managable. We first focus on designing and laying out the UI elements. Then after the UI is perfected we'll delve into the world of C# to bring the mechanics to life.
 
 If you've successfully completed the setup lesson, your project should now be open, and it will resemble something like this:
 
