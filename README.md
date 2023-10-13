@@ -4,7 +4,7 @@ Creating a real Integrated Development Environment (IDE) is a challenging task, 
 
 Any frontend program typically consists of two primary components: the User Interface (UI) elements and the underlying mechanics that make those elements work seamlessly.
 
-In our project, we're leveraging XAML for the UI elements and C# for the mechanics. While I can't claim expertise in either XAML or C#, I'm committed to gathering the information required to develop a full-fledged IDE. My vision for this project is for it to serve as a valuable resource for those embarking on their journey to create and design their own IDE.
+In this project, I am writing it in XAML for the UI elements and C# for the mechanics. While I can't claim expertise in either XAML or C#, I'm committed to gathering the information required to develop a full-fledged IDE. My vision for this project is for it to serve as a valuable resource for those embarking on their journey to create and design their own IDE.
 
 My approach to this project is organized into lessons that will gradually build up over time. I'm optimistic that, with the help of others in the community, we can create something truly remarkable. It's a collaborative effort that I hope others will join.
 
