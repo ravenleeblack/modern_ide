@@ -6,7 +6,8 @@ The way we are going to appproach this, is we are going to create a whole new wi
 
 1) Lets create a new xaml window and name it new_file_menu.xaml.
 
-![window_menu](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/5587ae2e-0e8d-4647-aebd-5f4a8b605bff)
+![new_window](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/7636899d-dbb2-46e6-9d1e-da58e7d18072)
+
 
 
 I think this time around we will leave the header and window size. In the title tag we need to rename it to New File.
