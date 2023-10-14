@@ -18,5 +18,5 @@ The window with the placeholder window hidden:
 
 ![screen_10](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/ded43f30-3deb-4127-978d-e9a1386f2e23)
 
-This forces all the windows in the DockPanel to be in the correct position. In another lesson we can learn how to actually setting up creating and opening windows.
+This forces all the windows in the DockPanel to be in the correct position. In another lesson we can learn how to actually set up, create and open a tabbed file window.
 
