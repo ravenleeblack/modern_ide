@@ -2,5 +2,7 @@ In a previous lesson we created a placeholder to push our window into place. Now
 
 The way we are going to appproach this, is we are going to create a whole new window, this will help clean our code up some that is already starting to get pretty long in MainWindow.xaml.
 
+1) Lets create a new window and name it new_file_menu.xaml.
+
 
 
