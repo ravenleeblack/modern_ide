@@ -35,10 +35,11 @@ Lets set up the Grid.ColumnDefinitions. This will give us 1 column of 150 to use
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150" />
             <ColumnDefinition Width="400" />
-            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="10" />
             <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="10" />
             <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="10" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 ```
