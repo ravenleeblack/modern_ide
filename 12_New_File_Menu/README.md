@@ -1,1 +1,1 @@
-
+Back in the lesson 09 WE didnt really do anything except make a placeholder window for the text editor to push the windows into the DockPanel properly. In windows I knw that we defiantly have an open and save dialog menu that we can use when we get to it but there is no menu for creating a new file so we are going to make one. There are 2 places that we can do this. The first one being the new file button in the main menu's file button which is the normal and then there is theoption of having a nice right-click menu. 
