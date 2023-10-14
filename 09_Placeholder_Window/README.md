@@ -9,12 +9,14 @@ So to create a placeholder we will use TabControl and name our tab control hold_
 </TabControl>
 ```
 
-The main window with the editor window visisble:
+The window with the placeholder window visisble:
 
 ![screen_9](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/f08fc475-7259-49cc-b9b7-1ff350e0d544)
 
 
-The main window with the editor window hidden:
+The window with the placeholder window hidden:
 
 ![screen_10](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/ded43f30-3deb-4127-978d-e9a1386f2e23)
+
+This forces all the windows in the DockPanel to be in the correct position. In another lesson we can learn how to actually setting up creating and opening windows.
 
