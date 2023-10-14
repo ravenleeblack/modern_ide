@@ -47,7 +47,7 @@ Lets set up the Grid.ColumnDefinitions. This will give us 1 column of 150 to use
 
 For the rows we will need to make many to allow a list of files so we have 18 at 20 for file types and 1 row at a height of 30 for the buttons then we just use a variable row for the last row:
 ```xml
-       <Grid.RowDefinitions>
+        <Grid.RowDefinitions>
             <RowDefinition Height="20" />
             <RowDefinition Height="20" />
             <RowDefinition Height="20" />
@@ -70,8 +70,8 @@ For the rows we will need to make many to allow a list of files so we have 18 at
 
             <RowDefinition Height="20" />
             <RowDefinition Height="20" />
-
-            <RowDefinition Height="30" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
             
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
