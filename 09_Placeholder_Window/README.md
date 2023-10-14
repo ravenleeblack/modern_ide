@@ -1,4 +1,4 @@
-In this lesson I am not even going to lie!! I have no idea how to properly setup tabbed windows for file handling but I am trying to learn.  
+In this lesson I am not even going to lie!! I have no idea how to properly set up tabbed windows for file handling but I am trying to learn.  
 
 The issue we have here in this lesson is the Termanal window we created is still in the middle of the screen so we need to push it into place, but this is normally where we would want our Text Editor window to fall into place, the issue is the Text Editor window doesnt come into existence until we create or open a file so until then, we need something to be a placeholder in the area to keep our window formation until we actually do create or opene a file.
 
