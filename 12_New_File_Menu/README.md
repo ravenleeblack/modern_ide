@@ -4,7 +4,7 @@ In a previous lesson we created a placeholder to push our window into place. Now
 
 The way we are going to appproach this, is we are going to create a whole new window, this will help clean our code up some that is already starting to get pretty long in MainWindow.xaml.
 
-1) Lets create a new xaml window and name it new_file_menu.xaml.
+1) Lets create a new xaml window and name it new_file_menu.xaml. Right click on the Illeshian_ide_ folder, add, new item, under Visual C# we need to choose the WPF line, then we need to pick Window (WPF), and the nfinally we need to name the new window new_file_menu.xaml and click on the add button.
 
 ![new_window](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/7636899d-dbb2-46e6-9d1e-da58e7d18072)
 
