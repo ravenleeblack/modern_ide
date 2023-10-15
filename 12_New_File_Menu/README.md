@@ -84,7 +84,7 @@ We can create a Label for the middle:
         </Label>
 ```
 
-Since we do not have the code behind or mechanics connected yet here is an image of what it should look like:
+Since we do not have the code behind or mechanics connected here yet is an image of what it should look like:
 
 ![new_menu](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/c9b0035f-a79d-4cd4-b111-8c0c4b9ba786)
 
