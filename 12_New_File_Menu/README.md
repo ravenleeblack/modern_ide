@@ -26,13 +26,112 @@ We need to set the grid up for the right layout and again we will add the backgr
     </Grid>
 ```
 
-STILL WORKING ON THIS LESSON. THE BACK GROUND FOR XAML IS HERE DOE.
 
-Since we do not have the code behind or mechanics connected yet, here is an image of what it should look like:
+next lets set the grid up:
+```xml
+    <Grid Background="#FF282828">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="40" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="10" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10" />
+            
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+
+            <RowDefinition Height="10" />
+            <RowDefinition Height="20" />
+
+            <RowDefinition Height="10" />
+            <RowDefinition Height="10" />
+
+        </Grid.RowDefinitions>
+```
+Then we make the background labels, suppose we didnt really need them, but yea it stands out. We need add some listbox to our labels. The first label will be our installed languages at some point, the second will be the type of files  and the last label will be a descripton of the file type.
+
+```xml
+        <Label x:Name="language_label" Grid.Column="1" Grid.Row="1"  Grid.RowSpan="20" Background="#FF141414" BorderBrush="Black" BorderThickness="1" Padding="5,5,5,0">
+            <ListBox x:Name="language_listbox"  Padding="0" Width="190" Height="400" BorderBrush="Black" Background="#FF282828" Foreground="Teal">
+                <ListBoxItem> Files: </ListBoxItem>
+ 
+            </ListBox>
+        </Label>
+
+        <Label x:Name="file_type_label" Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="20" Background="#FF141414" BorderBrush="Black" BorderThickness="1" Padding="5,5,5,0">
+            <ListBox x:Name="file_typ_listbox"  Padding="0" Width="450" Height="400" BorderBrush="Black" Background="#FF282828" Foreground="Teal">
+                <ListBoxItem> .c   </ListBoxItem>
+                <ListBoxItem> .asm </ListBoxItem>
+                <ListBoxItem> .ill </ListBoxItem>
+                <ListBoxItem> .txt </ListBoxItem>
+            </ListBox>
+        </Label>
+
+        <Label x:Name="descrip_label" Grid.Column="6" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="20" Background="#FF141414" BorderBrush="Black" BorderThickness="1" Padding="5,5,5,0">
+            <ListBox x:Name="descrip_listbox"  Padding="5,5,5,0" Width="198" Height="400" BorderBrush="Black" Background="#FF282828">
+            </ListBox>
+        </Label>
+```
+
+We can create a name label:
+
+```xml
+        <Label x:Name="name_label" Content="File Name:" Grid.Column="1" Grid.Row="22" Grid.RowSpan="2" Background="#FF141414" Foreground="Teal" BorderThickness="1" BorderBrush="Black"/>
+```
+
+A textbox for the future file name:
+```xml
+   <TextBox x:Name="text_box" Grid.Row="22" Grid.Column="3" Grid.RowSpan="2" Grid.ColumnSpan="2" Background="#FF141414" BorderBrush="Black" Foreground="Teal">
+            
+        </TextBox>
+```
+
+Finally 2 buttons. 1 for the ok button and 1 for the cancel button:
+```xml
+
+        <Button x:Name="ok_button" Content="OK" Grid.Column="6" Grid.Row="22" Grid.RowSpan="2" BorderBrush="Black" Background="#FF141414" Foreground="Teal"/>
+        <Button x:Name="cancel_button" Content="Cancel" Grid.Column="8" Grid.Row="22" Grid.RowSpan="2" BorderBrush="Black" Background="#FF141414" Foreground="Teal"/>
+```
+
+WE now have something that looks like this:
 
 ![new_menu](https://github.com/ravenleeblack/Illeshian-Ide/assets/76606152/c9b0035f-a79d-4cd4-b111-8c0c4b9ba786)
 
-It is not the best looking new file menu yet but I will work on it and update.
+
+
+It is not the best looking new file menu yet but I will work on it and update it. I know this lesson kinda felt less descriptive then normal and I will rewrite most of the lessons once I get it all done. Right now I am mainly just trying to get all the info together, out, and correct.
 
 
 
