@@ -17,4 +17,4 @@ This will create a new function in MainWindow.xaml.cs:
         }
 ```
 
-We now should be able to open our new file menu.
+We now should be able to open our new file menu. That all for now on the new file. There are plenty of other things I need to add to lesson 12 and this lesson in order to make everything work.
