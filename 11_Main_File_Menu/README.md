@@ -59,19 +59,18 @@ In this lesson we are going to make a menu for the main menu;s file buttton.
    Inside the grid, we add buttons for different submenu items. Each button is placed in a specific row to align them vertically.
 
    ```xml
-   <Button Grid.Row="0" Width="88" Height="18" Content="Main Project" Foreground="Teal" />
-   <Button Grid.Row="1" Width="88" Height="18" Content="New Project" Foreground="Teal" />
-   <Button Grid.Row="2" Width="88" Height="18" Content="Load Project" Foreground="Teal" />
-   <Button Grid.Row="3" Width="88" Height="18" Content="`````````````````````````````" Foreground="#FF505050" />
-   <Button Grid.Row="4" Width="88" Height="18" Content="New File" Foreground="Teal" />
-   <Button Grid.Row="5" Width="88" Height="18" Content="Load File" Foreground="Teal" />
-   <Button Grid.Row="6" Width="88" Height="18" Content="`````````````````````````````" Foreground="#FF505050" />
-   <Button Grid.Row="7" Width="88" Height="18" Content="Save File" Foreground="Teal" />
-   <Button Grid.Row="8" Width="88" Height="18" Content="Save As" Foreground="Teal" />
-   <Button Grid.Row="9" Width="88" Height="18" Content="`````````````````````````````" Foreground="#FF505050" />
-   <Button Grid.Row="10" Width="88" Height="18" Content="Preference" Foreground="Teal" />
-   <Button Grid.Row="11" Width="88" Height="18" Content="Exit" Foreground="Teal" />
-
+   <Button Grid.Row="0" Width="88" Height="18" Content="Main Project" Foreground="Teal" Background="#FF141414" BorderBrush="Black" />
+   <Button Grid.Row="1" Width="88" Height="18" Content="New Project" Foreground="Teal" Background="#FF141414" BorderBrush="Black" />
+   <Button Grid.Row="2" Width="88" Height="18" Content="Load Project" Foreground="Teal" Background="#FF141414" BorderBrush="Black" />
+   <Button Grid.Row="3" Width="88" Height="18" Content="`````````````````````````````" Foreground="#FF505050" Background="#FF1E1E1E" BorderBrush="{x:Null}" />
+   <Button Grid.Row="4" Width="88" Height="18" Content="New File" Foreground="Teal" Background="#FF141414" BorderBrush="Black" />
+   <Button Grid.Row="5" Width="88" Height="18" Content="Load File" Foreground="Teal" Background="#FF141414" BorderBrush="Black" />
+   <Button Grid.Row="6" Width="88" Height="18" Content="`````````````````````````````" Foreground="#FF505050" Background="#FF1E1E1E" BorderBrush="{x:Null}" />
+   <Button Grid.Row="7" Width="88" Height="18" Content="Save File" Foreground="Teal" Background="#FF141414" BorderBrush="Black" />
+   <Button Grid.Row="8" Width="88" Height="18" Content="Save As" Foreground="Teal" Background="#FF141414" BorderBrush="Black" />
+   <Button Grid.Row="9" Width="88" Height="18" Content="`````````````````````````````" Foreground="#FF505050" Background="#FF1E1E1E" BorderBrush="{x:Null}" />
+   <Button Grid.Row="10" Width="88" Height="18" Content="Preference" Foreground="Teal" Background="#FF141414" BorderBrush="Black" />
+   <Button Grid.Row="11" Width="88" Height="18" Content="Exit" Foreground="Teal" Background="#FF141414" BorderBrush="Black" />
    ```
 
 7. **Closing Tags:*
